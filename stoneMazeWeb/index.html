@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8" />
+    <title>石头迷阵</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+<!-- 居中的游戏面板 -->
+<div id="game-panel">
+    <!-- 背景图 -->
+    <div id="background"></div>
+
+    <!-- 步数显示 -->
+    <div id="count">步数：0</div>
+
+    <!-- 拼图容器 -->
+    <div id="puzzle-container"></div>
+
+    <!-- 胜利提示 -->
+    <div id="win-message" style="display: none;">
+        <img src="image/win.png" alt="胜利" />
+    </div>
+
+    <!-- 菜单栏 -->
+    <div id="menu-bar">
+        <button id="restartBtn">重启</button>
+        <button id="exitBtn">退出</button>
+    </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
